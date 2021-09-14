@@ -282,7 +282,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '4JI3ajPFWcpHM9XSqYv_HqAOqkdngFl0zIoWmDoHcKjVsztxSIr5_3UwXF1iCruG0RrTVOLG_Q';
+$settings['hash_salt'] = '2sxQsvsva7ipqzZOlL2mmEX3eDrFAIvXbJHe_sWAwHiFXzm1LriKXk8yKSTPdBPgPU-M_b4Fow';
 
 /**
  * Deployment identifier.
@@ -803,7 +803,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'Drupal',
+  'database' => 'anytown_farmers_market',
   'username' => 'root',
   'password' => 'root',
   'prefix' => '',
@@ -812,4 +812,4 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_5IkPeAcnviNSsZRUyih7ncrur1mitrDJ1KBRWs3pZx83QutaykrhJbUE9Ennjo-6OGkTQoFf2g/sync';
+$settings['config_sync_directory'] = 'sites/default/files/config_Im7gAw75OAw9Er3B9BBdIUkU7d4rNTbg2wXyVdzetFIiqDCNdwfA6zVehoKghrH2eZKBL64zjg/sync';
